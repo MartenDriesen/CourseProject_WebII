@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92 58">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_2);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #0c9eff;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-4 {
+        fill: #fbcf13;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_2" data-name="Naamloos verloop 2" x1="-351.41" y1="44.43" x2="-350.38" y2="43.6" gradientTransform="translate(32337.89 2586.6) scale(92 -58)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f1ebf"/>
+      <stop offset="1" stop-color="#480f60"/>
+    </linearGradient>
+    <clipPath id="clippath">
+      <rect class="cls-3" x="37.48" y="5.47" width="17.05" height="45.93"/>
+    </clipPath>
+  </defs>
+  <path id="Subtraction_4-2" data-name="Subtraction 4-2" class="cls-1" d="m68.44,58H0V23.98L23.98,0h68.03v34.44l-23.56,23.56h0Z"/>
+  <g id="Group_571" data-name="Group 571">
+    <g class="cls-5">
+      <g id="Group_570" data-name="Group 570">
+        <path id="Path_84" data-name="Path 84" class="cls-2" d="m40.36,37.26h-.89c-.99.1-1.89-.62-1.99-1.61-.01-.13-.01-.26,0-.39v-14.18c-.04-1.47,1.11-2.7,2.59-2.75.04,0,.09,0,.13,0,2.21-.02,4.43,0,6.64,0,1.55,0,3.09,0,4.64,0,1.51-.17,2.87.92,3.04,2.43.02.2.02.4,0,.6v13.91c.09,1.01-.65,1.91-1.67,2-.1,0-.19,0-.29,0-.23,0-.46,0-.68.02-.03,0-.06.03-.16.08v11.86c0,1.52-.67,2.18-2.18,2.18h-7.17c-1.01.11-1.92-.62-2.03-1.63-.01-.13-.01-.26,0-.4,0-3.72,0-7.45,0-11.17v-.95"/>
+        <path id="Path_85" data-name="Path 85" class="cls-2" d="m51.2,10.93c-.02,2.99-2.46,5.41-5.46,5.39-2.99-.02-5.41-2.46-5.39-5.46.02-2.99,2.46-5.41,5.46-5.39.02,0,.04,0,.06,0,2.98.04,5.37,2.48,5.33,5.46,0,0,0,0,0,0"/>
+      </g>
+    </g>
+  </g>
+  <path class="cls-4" d="m0,54.82v3.18h68.44l3.01-3.01c-23.82-.06-47.63-.11-71.45-.17Z"/>
+</svg>

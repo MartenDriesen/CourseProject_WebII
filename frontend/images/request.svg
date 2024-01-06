@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="bg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1493.3 267.47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_44);
+        filter: url(#drop-shadow-5);
+        stroke: url(#Naamloos_verloop_237);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: url(#Naamloos_verloop_237-2);
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_44" data-name="Naamloos verloop 44" x1="479.74" y1="-189.98" x2="938.42" y2="369.22" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f3380"/>
+      <stop offset="1" stop-color="#5c2482"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_237" data-name="Naamloos verloop 237" x1="42.5" y1="133.89" x2="1451.04" y2="133.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1f3380"/>
+      <stop offset="1" stop-color="#5c2482"/>
+    </linearGradient>
+    <filter id="drop-shadow-5" filterUnits="userSpaceOnUse">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="28"/>
+      <feFlood flood-color="#1d1d1b" flood-opacity=".82"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="Naamloos_verloop_237-2" data-name="Naamloos verloop 237" x1="1280.25" y1="-.09" x2="1281.91" y2="-.09" xlink:href="#Naamloos_verloop_237"/>
+  </defs>
+  <path class="cls-1" d="m1227.13,221.13c57.31-44.73,165.16-130.48,222.47-175.21-405.16-1.02-810.33-2.05-1215.49-3.07-46.62,47.02-143.78,135.06-190.4,182.08,394.47-1.27,788.95-2.54,1183.42-3.8Z"/>
+  <line class="cls-2" x1="1280.6" y1=".39" x2="1281.56" y2="-.57"/>
+</svg>

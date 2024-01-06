@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 286.48 469.83">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop_2);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: url(#Naamloos_verloop_13);
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop_2" data-name="Naamloos verloop 2" x1="393.24" y1="741.48" x2="42.82" y2="31.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f1ebf"/>
+      <stop offset="1" stop-color="#480f60"/>
+    </linearGradient>
+    <linearGradient id="Naamloos_verloop_13" data-name="Naamloos verloop 13" x1="393.24" y1="741.48" x2="42.82" y2="31.44" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a44c97"/>
+      <stop offset="1" stop-color="#3b2498"/>
+    </linearGradient>
+  </defs>
+  <path id="Subtraction_2-2" data-name="Subtraction 2-2" class="cls-1" d="m212.65,469.83H0V71.78l1.09,1.13L75.89.68l-.66-.68h211.24v397.8l-74.19,71.65.37.38h0Z"/>
+  <path id="Subtraction_2-3" data-name="Subtraction 2-3" class="cls-2" d="m212.65,469.83H0V71.78l1.09,1.13L75.89.68l-.66-.68h211.24v397.8l-74.19,71.65.37.38h0Z"/>
+</svg>

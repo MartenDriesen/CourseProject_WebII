@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url("https://use.typekit.net/mdu5lem.css");
+
+.charactersA{
+    text-underline-offset: 6px;
+}
+
+.fanArtA{
+    text-decoration: none;
+}
+
+.requestsA{
+    text-decoration: none;
+}
+
+.tags {
+    margin-left: 32vw;
+    margin-top: -2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+    height: 40px;
+}
+
+.tag{
+width: 250px;
+position: relative;
+background: none;
+border: none;
+color: white;
+font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 18px;
+}
+
+.tag img{
+width: 100%;
+}
+
+.tagp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+.sorters{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 28vw;
+margin-top: 2vw;
+
+
+}
+
+.factions button{
+margin-left: 20px;
+}
+
+.jedi{
+    background: none;
+background-image: url(images/jedi.svg);
+background-repeat: no-repeat;
+border: none;
+width: 100px;
+height: 100px;
+
+}
+
+.sith{
+    background: none;
+    background-image: url(images/sith.svg);
+    background-repeat: no-repeat;
+    border: none;
+    width: 100px;
+    height: 100px;
+}
+
+.factionsCreate button{
+    margin-left: 20px;
+    }
+    
+    .jediCreate{
+        background: none;
+    background-image: url(images/jedi.svg);
+    background-repeat: no-repeat;
+    border: none;
+    width: 50px;
+    height: 50px;
+    opacity: 50%;
+    
+    }
+    
+    .sithCreate{
+        background: none;
+        background-image: url(images/sith.svg);
+        background-repeat: no-repeat;
+        border: none;
+        width: 50px;
+        height: 50px;
+        opacity: 50%;
+    }
+    
+.genders{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 500px;
+}
+
+
+.MWButton{
+    background: none;
+    background-image: url(images/MWButton.svg);
+    background-repeat: no-repeat;
+    border: none;
+    width: 150px;
+    height: 50px;
+}
+.man{
+    background: none;
+    background-image: url(images/man.svg);
+    background-repeat: no-repeat;
+    border: none;
+    width: 80px;
+    height: 50px;
+    margin-left: -90px;
+}
+
+.woman{
+    background: none;
+    background-image: url(images/woman.svg);
+    background-repeat: no-repeat;
+    border: none;
+    width: 80px;
+    height: 50px;
+    margin-left: -90px;
+}
+
+.characters {
+    width: 100%;
+    margin: 20px 140px 0 140px;
+    width: 100%;
+    margin: 0 5%; /* Adjust as needed for responsiveness */
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.character {
+    position: relative;
+    width: 240px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.cart {
+    width: 100%;
+}
+
+.faction {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    height: 90px;
+}
+
+.text{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    font-size: 20px;
+    color: white;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.shipProperty{
+    margin-top: -2px;
+}
+
+.propertytitle{
+    font-size: 15px;
+    color: gray;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+margin-bottom: 2px;
+}
+
+.gender{
+    position: absolute;
+    top: -23px;
+    left: 180px;
+    height: 40px;
+}
+
+.favorite{
+    position: absolute;
+top: 20px;
+    left: 195px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    background-size: cover;
+    background-image: url(images/star.png);
+    
+}
+
+.costumicon{
+    position: absolute;
+top: 60px;
+    left: 195px;
+    width: 30px;
+}
+
+.delete{
+    position: absolute;
+    background: none;
+    border: none;
+    background-image: url(images/cross.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.createBox{
+    display: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 21vw;
+    margin-top: 80px;
+}
+
+.createBox input{
+    margin-right: 35px;
+}
+
+.hide{
+    margin-left: 60vw;
+    margin-top: -20px;
+    position: absolute;
+    background: none;
+    border: none;
+    background-image: url(images/cross.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.registerBox {
+    position: absolute;
+    left: 78vw;
+    top: 80px;
+    width: 350px;
+    height: 120px;
+    background-color:#5B2482;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2px;
+    display: none;
+}
+
+
+.registerBox input{
+    margin-top: 10px;
+    color: white;
+}
+
+.loginBox{
+    position: absolute;
+    left: 78vw;
+    top: 80px;
+    width: 350px;
+    height: 120px;
+    background-color:#5B2482;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    display: none;
+}
+
+.loginBox  form{
+    margin-top: 10px;
+    color: white;
+    align-self: center;
+}
+.genderCreate{
+    margin-top: 20px;
+}
+
+.sexyinput input{
+    float: left;
+}
+
+.factionsCreate{
+    margin-left: 18vw;
+    margin-top: -20px;
+}
+
+.add p{
+    margin-top: -5px;
+}
+.add{
+    margin-left: 43vw;
+    margin-top: -100px;
+}

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url("https://use.typekit.net/mdu5lem.css");
+
+body{
+    margin: 0 0 20px 0;
+    background-image: url(images/bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+nav a{
+    z-index: 915;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar{
+    position: relative;
+    width: 100vw;
+    height: 64px;
+    box-shadow: 0px -4px 10px 10px rgba(0, 0, 0, 0.7);
+}
+
+.navContent{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    left: 8vw;
+}
+
+.links{
+width: 25vw;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.links a{
+font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+text-underline-offset: 6px;
+}
+
+
+
+#search{
+    color: white;
+    margin-top: 1px;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+margin-left: 14%;
+}
+
+#search input{
+    width: 175px;
+    height: 25px;
+    
+}
+
+.titleBlock{
+    z-index: 895;
+    position: relative;
+    top: 0%;
+    left: -5%;
+    width: 67vw;
+}
+
+.navtext{
+    z-index: 915;
+    font-family: 'Apertura';
+    color: white;
+}
+
+.titleBox{
+    width: 700px;
+    position: absolute;
+    left: 8vw;
+    z-index: 896;
+    margin-top: -15vw;
+}
+
+.title{
+    font-family: 'Fugaz One', sans-serif;
+    position: absolute;
+    z-index: 910;
+    font-size: 3vw;
+}
+
+
+
+.gradientText {
+    font-family: 'Fugaz One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(135deg, #f0901f, #fdcf16);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.login{
+display: flex;
+align-items: center;
+margin-left: 10%;
+}
+
+.loginbutton{
+    background: none;
+    border: none ;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+color: white;
+margin-left: 50%;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+
+.footerbar{
+    width: 500px;
+}
+
+label{
+    color: white;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.deleteRegister{
+    margin-left: 20px;
+    position: absolute;
+    background: none;
+    border: none;
+    background-image: url(images/cross.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.deleteLogin{
+    margin-left: 20px;
+    position: absolute;
+    background: none;
+    border: none;
+    background-image: url(images/cross.png);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}

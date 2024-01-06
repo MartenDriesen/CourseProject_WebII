@@ -1,0 +1,71 @@
+
+
+.charactersA{
+    text-decoration: none;
+}
+
+.requestsA{
+    text-decoration: none;
+}
+
+#searchPrice{
+    color: white;
+    margin-top: 1px;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size: 20px;
+margin-left: 14%;
+}
+
+#searchPrice input{
+    width: 175px;
+    height: 25px;  
+}
+
+.artworks {
+    width: 100%;
+    margin: 0 5%; /* Adjust as needed for responsiveness */
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+.artwork {
+    width: calc(42.33% - 20px); /* Adjust as needed for your layout and margins */
+    margin-bottom: 50px; /* Adjust as needed for your layout */
+    margin-left: 50px;
+}
+
+.artimg {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.price {
+    color: white;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+
+    /* Adjust as needed for your layout */
+}
+
+.artist{
+    color: white;
+    font-family: apertura, sans-serif;
+font-weight: 500;
+margin-left: 100px;
+}
+
+.buy{
+    margin-left: 10px;
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: none;
+    background-image: url(images/buy.svg);
+    background-repeat: no-repeat;
+}
+.info{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_1" data-name="Laag 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 224.38 39.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Naamloos_verloop);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fbcf13;
+      }
+    </style>
+    <linearGradient id="Naamloos_verloop" data-name="Naamloos verloop" x1="-601.89" y1="370.21" x2="-601.89" y2="371" gradientTransform="translate(141309.59 -18147.29) scale(234.59 49.02)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8f1ebf"/>
+      <stop offset="1" stop-color="#480f60"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_40" data-name="Path 40" class="cls-1" d="m0,39.1h184.61L224.31.36l-184.11.15L0,39.1Z"/>
+  <path class="cls-2" d="m3.38,35.91l-11.62,11.27h184.61l11.02-10.83c-61.34-.15-122.68-.29-184.02-.44h0Z"/>
+</svg>

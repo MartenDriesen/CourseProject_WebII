@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <script src=" https://cdn.jsdelivr.net/npm/cleave.js@1.6.0/dist/cleave.min.js "></script>
+    <script defer type="module" src="home.js"></script>
+    <title>Star-wars ArtInventors</title>
+</head>
+
+<body>
+<nav>
+    <div class="navContent">
+    <div class="links"> <a class="charactersA" href="index.html">characters</a><a class="fanArtA" href="fanArt.html">fan-art</a><a class="requestsA" href="request.html">art-requests</a></div>
+    <form id="search">
+        <label for="name">Search by name</label>
+        <input type="text" id="name" data-search>
+    </form>
+    <div class="login"> <button class="loginbutton register">Register</button> <button class="loginbutton login">login</button></div>
+</div>
+   <img class="navbar" src="images/navbar.png" alt="">
+    
+   <div class="registerBox">
+    <form id="registerForm" action="" method="post">
+        <label for="user">Username</label>
+        <input id="user" type="text" name="username" >
+        
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" >
+        
+        <label for="mail">Email</label>
+        <input id="mail" type="email" name="email" >
+        
+        <button type="submit">Register</button>
+        <button class="deleteRegiter"></button>
+    </form>
+</div>
+
+<div class="loginBox">
+    <form action="" method="post">
+        <label for="user">Username</label>
+        <input id="user" type="text" name="username" >
+        
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" >
+        
+        <button type="submit">login</button>
+        <button class="deleteLogin"></button>
+    </form>
+</div>
+</nav>
+
+<img class="titleBlock" src="images/titleBlock.png" alt="">
+<div class="titleBox">
+<h1 class="gradientText title">Star-wars Artinventors <br>Characters</h1>
+</div>
+
+
+<div class="tags">
+    <button class="tag all" ><p class="tagp">All</p> <img src="images/tags.svg" alt=""></button>
+    <button class="tag favorites"><p class="tagp">Favorites</p> <img src="images/tags.svg" alt=""></button>
+    <button class="tag costum" ><p class="tagp">Costum</p> <img src="images/tags.svg" alt=""></button>
+    <button class="tag create"><p class="tagp">Create costum</p> <img src="images/tags.svg" alt=""></button>
+</div>
+
+<div class="sorters">
+
+    <div class="genders">
+        <button class="MWButton"></button>
+        <button class="man"></button>
+        <button class="woman"></button>
+    </div>
+
+    <div class="factions">
+        <button class="jedi"></button>
+        <button class="sith"></button>
+    </div>
+</div>
+
+<div class="createBox">
+    <form id="sexyform">
+        <label for="fullName">Name</label>
+        <input id="fullName" class="form-control name">
+    
+        <label for="species">Species</label>
+        <input id="species" class="form-control name">
+    
+        <label for="ship">Ship</label>
+        <input id="ship" class="form-control name">
+    
+        <label for="inventorname">Inventor</label>
+        <input id="inventorname" class="form-control name">
+    
+        <div class="genderCreate">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="images/manicon.png" checked >
+
+<input type="radio" id="female" name="gender" value="images/womanicon.png" >
+<label for="female">Female</label>
+        </div>
+    
+        
+        <div class="factionsCreate">
+            <button class="jediCreate"></button>
+            <button class="sithCreate"></button>
+        </div>
+    
+        <button class="hide"></button>
+        <button type="submit" class="add tag"><p class="tagp">create</p><img src="images/tags.svg" alt=""></button>
+    </form>
+</div>
+
+
+<div class="characters">
+  <!--
+    <div class="character">
+        <button class="delete"></button>
+        <img class="cart" src="images/cart.svg" alt="">
+        <button class="favorite"></button>
+        <img class="costumicon" src="images/costum.png" alt="">
+        <img class="faction" src="images/jedi.svg" alt="">
+        <div class="text">
+            <p class="property">Leya Masarak</p>
+            <p class="property">Human</p>
+            <p class="propertytitle">Ship:</p>
+            <p class="shipProperty">Dreadnought</p>
+            <p class="propertytitle">Invented by</p>
+            <p class="shipProperty">Milan Vanderputte</p>
+            <img class="gender" src="images/womanicon.png" alt="">
+        </div>
+    </div>
+-->
+</div>
+
+<footer>
+    
+</footer>
+</body>
+
+</html>
